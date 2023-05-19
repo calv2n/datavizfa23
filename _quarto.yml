@@ -1,0 +1,36 @@
+project:
+  type: website
+
+website:
+  favicon: download.jpg
+  title: "Data Viz @ Berkeley"
+  description: "Data Viz Homepage, Fall 2023" #site-url:"TBD"
+  sidebar:
+    background: "#7100bd"
+    foreground: light
+    search: true
+    logo: download.jpg
+    logo-alt: "logo"
+    style: docked
+    collapse-level: 1
+    contents: 
+      - href: "gradescope.com"
+      - text: "Gradescope"
+      - href: dv-syllabus.qmd
+      - text: "Syllabus"
+      - href: dv-staff.qmd
+      - text: "Contact Staff"
+      
+format:
+  html:
+    theme: cosmo
+    linkcolor: "#9800ff"
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    mainfont: "Roboto"
+execute:
+  freeze: auto
+
+editor: visual
+

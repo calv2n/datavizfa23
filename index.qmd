@@ -1,0 +1,60 @@
+---
+title: "STAT 198: Intro to Data Visualization"
+subtitle: "Instructors: Jenny Brown & Calvin Carter"
+execute:
+  freeze: false
+editor_options: 
+  chunk_output_type: console
+urlcolor: "#9800ff"
+linkcolor: "#9800ff"
+---
+
+**Class Calendar**
+```{r}
+#| echo: false
+#| message: false
+
+library(tidyverse)
+library(googlesheets4)
+library(gt) #make sure to install this package
+
+schedule <- read_sheet("https://docs.google.com/spreadsheets/d/1zyHtfnb0YAmzFN2vhIBSSlrmCsjZFPYAOSaKZL_VKM4/edit#gid=0")
+```
+
+```{r}
+#| echo: false
+
+schedule %>% 
+  mutate(Date = as.Date(Date, format="%a, %d %h")) %>% 
+  gt() %>% 
+  sub_missing(columns = c(Week, Date, Content, Activity, Due),
+              missing_text = "") %>% 
+  fmt_date(Date, 
+           date_style = 31) %>% 
+  cols_align(
+    align = "center", 
+    columns = c(Week)) %>% 
+  cols_align(
+    align = "center", 
+    columns = c(Date)) %>% 
+  cols_align(
+    align = "left", 
+    columns = c(Content, Activity, Due)) %>% 
+  tab_style(
+    style = cell_borders(
+      sides = "right",
+      color = "#D3D3D3",
+      style = "solid"),
+    locations = cells_body(columns = c(Week, Date, Content, Activity))
+  ) %>% 
+  fmt_markdown(
+    columns = c(Content, Activity, Due)) %>% 
+  cols_width(
+    Week ~ px(60),
+    Date ~ px(150),
+    Content ~ px(275),
+    Activity ~ px(250),
+    Due ~ px(200)
+  )
+  
+```

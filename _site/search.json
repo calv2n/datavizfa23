@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "STAT 198: Intro to Data Visualization",
+    "section": "",
+    "text": "Class Calendar\n\n\n\n\n\n\n\n\n\n  \n    \n    \n    \n    \n    \n  \n  \n    \n    \n      Week\n      Date\n      Content\n      Activity\n      Due\n    \n  \n  \n    1\nMon, Sep 11\nWelcome! / Introduction\n\n💻 Install R & RStudio 💻\n\n\n    \nWed, Sep 13\nGrammar of Graphics I\n\n📜 HW1 assigned 📜\n\n\n    2\nMon, Sep 18\nGrammar of Graphics II\n\n✨Kahoot! ✨\n\n\n    \nWed, Sep 20\nData Wrangling Review\n\n📑 Class QMD #1 📑\n\n\n    3\nMon, Sep 25\nUnivariate Plots\n\n📜 HW2 assigned 📜\n\nHW1 due before class\n\n    \nWed, Sep 27\nBivariate Plots\n\n📑 Class QMD #2 📑\n\n\n    4\nMon, Oct 2\n3+ Variable Plots\n\n\n\n    \nWed, Oct 4\nChoosing a Graphic: Stephen Few\n\n📑 Class QMD #3 📑\n\n\n    5\nMon, Oct 9\nColor Models & Spaces\n\n📜 HW3 assigned 📜\n\nHW2 due before class\n\n    \nWed, Oct 11\nColor Wheel, Schemes, & Palettes\n\n📑 Class QMD #4 📑\n\n\n    6\nMon, Oct 16\nData-ink Ratio\n\n📈 Quiz 1 Assigned 📈\n\nQuiz 1 Due @ 11:59\n\n    \nWed, Oct 18\nAxis, Annotation, & Themes\n\n📑 Class QMD #5 📑\n\nReflection #1 due on sunday\n\n    7\nMon, Oct 23\nDeceptive Graphs\n\n✨Kahoot!✨\n\nHW3 due before class\n\n    \nWed, Oct 25\nIntro to Interactivity & Animation (ggplotly + gganimate)\n\n📑 Class QMD #6 📑\n\n\n    8\nMon, Oct 30\nFundamentals of Maps\n\n\n\n    \nWed, Nov 1\nInteractive Maps\n\n\n\n    9\nMon, Nov 6\nShiny I\n\n📑 Class RShiny File 📑\n\n\n    \nWed, Nov 8\nShiny II\n\n📈 Quiz 2 Assigned 📈\n\nQuiz 2 Due @ 11:59\n\n    10\nMon, Nov 13\nIntro to Final Project\n\n📊 Final Project Assigned 📊\n\nHW4 due before class\n\n    \nWed, Nov 15\nExporting Image Files & More\n\n📑 Class QMD #7 📑\n\n\n    11\nMon, Nov 20\nFinal Project Presentations I\n\n🎊 Presentations! 🎊\n\nFinal Project Due before class\n\n    \nWed, Nov 22\n🦃 Academic Holiday! 🦃\n\n\n\n    12\nMon, Nov 27\nFinal Project Presentations II\n\n🎊 Presentations! 🎊 // Final Reflection Assigned. Due Fri, 08 Dec\n\n\n    \nWed, Nov 29\nFinal Project Presentations III\n\n🎊 Presentations! 🎊\n\nFinal Reflection due Fri, 08 Dec"
+  }
+]
