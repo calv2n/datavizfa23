@@ -1,0 +1,161 @@
+---
+title: "Syllabus"
+---
+
+## Description
+
+This is an introductory course to the principles of data visualization and their applications with R. Topics include: the role of graphics in a data analysis project, the grammar of graphics and its implementation with ggplot2; the use of analytical patterns/tasks to choose the right kind of graphic; common color models and their relationship to human vision; use of color with common tools such as the color wheel, color schemes, color pickers, and color palettes; designing principles (data-to-ink ratio, good practices); assessment of graphics (what makes a graphic good); animations and interactivity; shiny apps (time permitting).
+
+## Learning Outcomes
+
+At the end of the course, students will be able to:
+- Explain the importance/need of visualizing data
+- Describe the framework of the grammar of graphics for creating plots
+- Use functions from ggplot2 and other packages for making graphics in R
+- List five or more of the analytical patterns/tasks (proposed by Stephen Few) for choosing the right graphic
+- Specify colors through the use of a color model, and its hexadecimal syntax
+- Demonstrate an adequate encoding of data with color
+- Recognize color schemes when inspecting a graphic
+- Assess the effectiveness of a graphic intended for reporting/communicating purposes
+- Apply and/or suggest changes that increase the data-to-ink ratio of a graphic
+- Produce animated charts as well as graphics with interactive element
+
+## Prerequisites:
+
+Because our main computational tool is R (and RStudio), it is desirable to have taken a course in which you got an introduction to R (e.g. STAT 20, 33A, 33B, 133, or PB HLTH 142). It is also nice to have some previous experience analyzing data.
+
+## Methods of Instruction
+
+We will be using a combination of materials such as slides, tutorials, sample scripts, reading assignments, live demos, and chalk-and-talk. In-class attendance is mandatory.
+
+The main computational tool will be the computing and programming environment R. The main workbench will be the IDE RStudio.
+
+## Recommended Readings
+
+The following books are ***not*** required, but will be referenced throughout the course for slides, assignments, and more:
+
+- [Data Visualization](link.com) by Kieran Healy
+- [Geocomputation with R](link.com) by Robin Lovelace, Jakub Nowosad, and Jannes Muenchow.
+- [Now You See It: Simple Visualization Techniques for Quantitative Analysis](link.com) by Stephen Few
+- [Effective Data Visualization (2nd edition): The Right Chart for the Right Data](link.com) by Stephanie Evergreen
+
+## Grading Structure
+
+Students will be informed on their academic progress on gradescope.
+Final grades in the course are based on the following system:
+
+Assignments 30%
+
+- HW1 4%
+
+- HW2 4%
+
+- HW3 4%
+
+- HW4 4%
+
+- Final Project 14%
+
+
+Reflections 10%
+
+- Midterm Reflection 5%
+
+- Final Reflection 5%
+
+Attendance 50%
+
+Quizzes 10%
+
+**Notice:** There will be no extra credit assignments. Final grades will not be rounded to the nearest integer (i.e. 69.999% does not constitute a passing grade).
+
+## Assignments
+
+
+### Homework
+
+
+- There will be 4 HW assignments.
+
+- HWs will generally be assigned the every other monday and due exactly two weeks later before class. See chart for details.
+
+- You will submit your homework to Gradescope: including your source file (qmd file), and the produced output (html file).
+
+- You must write your own answers (using your own words, and your coding style - see *Academic Honesty* policy below). 
+
+
+### Final Project
+
+
+desc
+
+
+## Reflections
+
+
+Reflections will help both students and instructors on how we can all improve. These should be the easiest points you can get for this class. 
+
+- There will be 2 reflections, graded on effort and completion.
+
+
+## Attendance
+
+
+- Attendance will be taken daily in class starting on September 11th, and ending on November 29th.
+
+- No more than **two** absences permitted without contacting instructors.
+
+- In case of emergency, contact instructors for excused absences. You will still be expected to complete the class work from that date and email the instructors your work.
+
+
+## Quizzes
+
+
+- There will be 2 take-home quizzes worth 5% each.
+
+- You will be allowed to use any accumulated course materials (open note).
+
+## Late Policy
+
+Everyone starts with 9 slip days. That is, if for any reason you are not able to turn in an assignment on time, you will automatically be charged one slip day for each extra day the assignment will take you. If you have no slip days left, you may ask your instructors for additional slip days. **Notice**:
+
+- You may not use more than 4 slip days for one assignment.
+
+- You may not use slip days to change your final project date. Please ask your instructors if you absolutely need to change the presentation date.
+
+
+## Learning Cooperatively
+
+
+With the obvious exception of quizzes, we encourage you to discuss all of the course activities with your friends and classmates as you are working on them. You will definitely learn more in this class if you work with others than if you do not. Ask questions, answer questions, and share ideas liberally.
+
+
+## Academic Honesty
+
+
+Cooperation has a limit, however. You should not share your code or answers directly with other students. Doing so doesn't help them; it just sets them up for trouble. Feel free to discuss approaches to the problems with others, but you must write your own solutions. Please complete your own work and keep it to yourself. If you suspect other people may be plagiarizing you, let us know ASAP. For more information please read the [Honor Code Guide for Syllabi](http://teaching.berkeley.edu/sites/default/files/general/hc_guide_for_syllabi.pdf).
+
+We expect you to do your own work and to uphold the standards of intellectual integrity. Collaborating on homework is fine and I encourage you to work together---but copying is not, nor is having somebody else submit assignments for you. Cheating will not be tolerated. Anyone found cheating will receive an F and will be reported to the [Center for the Student Conduct](http://sa.berkeley.edu/conduct). 
+
+If you are having trouble with an assignment or studying for an exam, or if you are uncertain about permissible and impermissible conduct or collaboration, please come see me with your questions. Rather than copying someone else's work, ask for help. You are not alone in this course! The course staff is here to help you succeed. If you invest the time to learn the material and complete the projects, you won't need to copy any answers.
+
+
+## Special Accommodations
+
+
+Students needing accommodations for any physical, psychological, or learning disability, should speak with me during the first two weeks of the semester, either after class or during office hours and see [the dsp website](http://dsp.berkeley.edu) to learn about Berkeley’s policy. If you are a DSP student, please contact your instructors at least three weeks prior to a midterm or final so that we can work out acceptable accommodations via the DSP Office.
+
+For relevant DSP accommodations that provide occasional extensions on assignments, we may provide a two-day extension as long as you contact us before the assignment is due. More details about these consideratinos may be discussed with the DSP staff.
+
+If you are an athlete or Cal band member, please check your calendar. Do not take the class if you are not available to take the midterms,  and/or attend lab discussions. I won't be able to provide accommodations for an early or late exam.
+
+
+## Safe and Inclusive Environment
+
+
+Whenever a faculty member, staff member, post-doc, or GSI is responsible for the supervision of a student, a personal relationship between them of a romantic or sexual nature, even if consensual, is against university policy. Any such relationship jeopardizes the integrity of the educational process.
+
+Although faculty and staff can act as excellent resources for students, you should be aware that they are required to report any violations of this campus policy. If you wish to have a confidential discussion on matters related to this policy, you may contact the Confidential Care Advocates on campus for support related to counseling or sensitive issues. Appointments can be made by calling (510) 642-1988.
+
+Te classroom should be a safe and inclusive environment for everyone. The Office for the Prevention of Harassment and Discrimination (OPHD) is responsible for ensuring the University provides an environment for faculty, staff and students that is free from discrimination and harassment on the basis of categories including race, color, national origin, age, sex, gender, gender identity, and sexual orientation. Questions or concerns? Call (510) 643-7985, email ask_ophd@berkeley.edu, or go to [the survivor support website](http://survivorsupport.berkeley.edu/).
+

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./info/dv-syllabus.html" rel="next">
 <link href="./download.jpg" rel="icon" type="image/jpeg">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -67,11 +68,16 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">STAT 198: Intro to Data Visualization</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Class Info</a></li><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -79,31 +85,116 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./download.jpg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  Gradescope
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Class Info</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./info/dv-syllabus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Syllabus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./info/instructor-info.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Instructors</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./info/r-rstudio.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">R &amp; Rstudio</span></a>
+  </div>
+</li>
+      </ul>
   </li>
-        <li class="sidebar-item">
-  Syllabus
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+ <span class="menu-text">Homework &amp; Projects</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./homework/hw1.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HW1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./homework/hw2.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HW2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./homework/hw3.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HW3</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./homework/hw4.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HW4</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./homework/finalproj.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Final Project</span></a>
+  </div>
+</li>
+      </ul>
   </li>
-        <li class="sidebar-item">
-  Contact Staff
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+ <span class="menu-text">Slides</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./slides/sept11" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09/11/23</span></a>
+  </div>
+</li>
+      </ul>
   </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
@@ -113,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">STAT 198: Intro to Data Visualization</h1>
+<h1 class="title">STAT 198: Intro to Data Visualization</h1>
 <p class="subtitle lead">Instructors: Jenny Brown &amp; Calvin Carter</p>
 </div>
 
@@ -131,28 +222,25 @@ ul.task-list li input[type="checkbox"] {
 
 <p><strong>Class Calendar</strong></p>
 <div class="cell">
-
-</div>
-<div class="cell">
 <div class="cell-output-display">
 
-<div id="rpwsxljhod" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#rpwsxljhod table {
+<div id="vyuopruaak" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#vyuopruaak table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#rpwsxljhod thead, #rpwsxljhod tbody, #rpwsxljhod tfoot, #rpwsxljhod tr, #rpwsxljhod td, #rpwsxljhod th {
+#vyuopruaak thead, #vyuopruaak tbody, #vyuopruaak tfoot, #vyuopruaak tr, #vyuopruaak td, #vyuopruaak th {
   border-style: none;
 }
 
-#rpwsxljhod p {
+#vyuopruaak p {
   margin: 0;
   padding: 0;
 }
 
-#rpwsxljhod .gt_table {
+#vyuopruaak .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -178,12 +266,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#rpwsxljhod .gt_caption {
+#vyuopruaak .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#rpwsxljhod .gt_title {
+#vyuopruaak .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -195,7 +283,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#rpwsxljhod .gt_subtitle {
+#vyuopruaak .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -207,7 +295,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#rpwsxljhod .gt_heading {
+#vyuopruaak .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -219,13 +307,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#rpwsxljhod .gt_bottom_border {
+#vyuopruaak .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#rpwsxljhod .gt_col_headings {
+#vyuopruaak .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -240,7 +328,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#rpwsxljhod .gt_col_heading {
+#vyuopruaak .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -260,7 +348,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#rpwsxljhod .gt_column_spanner_outer {
+#vyuopruaak .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -272,15 +360,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#rpwsxljhod .gt_column_spanner_outer:first-child {
+#vyuopruaak .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#rpwsxljhod .gt_column_spanner_outer:last-child {
+#vyuopruaak .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#rpwsxljhod .gt_column_spanner {
+#vyuopruaak .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -292,11 +380,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#rpwsxljhod .gt_spanner_row {
+#vyuopruaak .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#rpwsxljhod .gt_group_heading {
+#vyuopruaak .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -322,7 +410,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#rpwsxljhod .gt_empty_group_heading {
+#vyuopruaak .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -337,15 +425,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#rpwsxljhod .gt_from_md > :first-child {
+#vyuopruaak .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#rpwsxljhod .gt_from_md > :last-child {
+#vyuopruaak .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#rpwsxljhod .gt_row {
+#vyuopruaak .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -364,7 +452,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#rpwsxljhod .gt_stub {
+#vyuopruaak .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -377,7 +465,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#rpwsxljhod .gt_stub_row_group {
+#vyuopruaak .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -391,15 +479,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#rpwsxljhod .gt_row_group_first td {
+#vyuopruaak .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#rpwsxljhod .gt_row_group_first th {
+#vyuopruaak .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#rpwsxljhod .gt_summary_row {
+#vyuopruaak .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -409,16 +497,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#rpwsxljhod .gt_first_summary_row {
+#vyuopruaak .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#rpwsxljhod .gt_first_summary_row.thick {
+#vyuopruaak .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#rpwsxljhod .gt_last_summary_row {
+#vyuopruaak .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -428,7 +516,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#rpwsxljhod .gt_grand_summary_row {
+#vyuopruaak .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -438,7 +526,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#rpwsxljhod .gt_first_grand_summary_row {
+#vyuopruaak .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -448,7 +536,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#rpwsxljhod .gt_last_grand_summary_row_top {
+#vyuopruaak .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -458,11 +546,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#rpwsxljhod .gt_striped {
+#vyuopruaak .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#rpwsxljhod .gt_table_body {
+#vyuopruaak .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -471,7 +559,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#rpwsxljhod .gt_footnotes {
+#vyuopruaak .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -485,7 +573,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#rpwsxljhod .gt_footnote {
+#vyuopruaak .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -494,7 +582,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#rpwsxljhod .gt_sourcenotes {
+#vyuopruaak .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -508,7 +596,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#rpwsxljhod .gt_sourcenote {
+#vyuopruaak .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -516,63 +604,63 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#rpwsxljhod .gt_left {
+#vyuopruaak .gt_left {
   text-align: left;
 }
 
-#rpwsxljhod .gt_center {
+#vyuopruaak .gt_center {
   text-align: center;
 }
 
-#rpwsxljhod .gt_right {
+#vyuopruaak .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#rpwsxljhod .gt_font_normal {
+#vyuopruaak .gt_font_normal {
   font-weight: normal;
 }
 
-#rpwsxljhod .gt_font_bold {
+#vyuopruaak .gt_font_bold {
   font-weight: bold;
 }
 
-#rpwsxljhod .gt_font_italic {
+#vyuopruaak .gt_font_italic {
   font-style: italic;
 }
 
-#rpwsxljhod .gt_super {
+#vyuopruaak .gt_super {
   font-size: 65%;
 }
 
-#rpwsxljhod .gt_footnote_marks {
+#vyuopruaak .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#rpwsxljhod .gt_asterisk {
+#vyuopruaak .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#rpwsxljhod .gt_indent_1 {
+#vyuopruaak .gt_indent_1 {
   text-indent: 5px;
 }
 
-#rpwsxljhod .gt_indent_2 {
+#vyuopruaak .gt_indent_2 {
   text-indent: 10px;
 }
 
-#rpwsxljhod .gt_indent_3 {
+#vyuopruaak .gt_indent_3 {
   text-indent: 15px;
 }
 
-#rpwsxljhod .gt_indent_4 {
+#vyuopruaak .gt_indent_4 {
   text-indent: 20px;
 }
 
-#rpwsxljhod .gt_indent_5 {
+#vyuopruaak .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -597,155 +685,155 @@ ul.task-list li input[type="checkbox"] {
   <tbody class="gt_table_body">
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">1</td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Mon, Sep 11</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Welcome! / Introduction</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Welcome! / Introduction</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>💻 Install R &amp; RStudio 💻</p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Install R &amp; RStudio</p>
 </div></td>
 <td headers="Due" class="gt_row gt_left"></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"></td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Wed, Sep 13</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Grammar of Graphics I</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Grammar of Graphics I</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>📜 <a href="templink.com">HW1 assigned</a> 📜</p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>HW1 assigned</p>
 </div></td>
 <td headers="Due" class="gt_row gt_left"></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">2</td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Mon, Sep 18</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Grammar of Graphics II</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Grammar of Graphics II</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>✨Kahoot! ✨</p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Kahoot!</p>
 </div></td>
 <td headers="Due" class="gt_row gt_left"></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"></td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Wed, Sep 20</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Data Wrangling Review</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Data Wrangling Review</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>📑 <a href="templink.com">Class QMD #1</a> 📑</p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Class QMD #1</p>
 </div></td>
 <td headers="Due" class="gt_row gt_left"></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">3</td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Mon, Sep 25</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Univariate Plots</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Univariate Plots</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>📜 <a href="templink.com">HW2 assigned</a> 📜</p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>HW2 assigned</p>
 </div></td>
-<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p><a href="templink.com">HW1 due before class</a></p>
+<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p>HW1 due before class</p>
 </div></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"></td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Wed, Sep 27</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Bivariate Plots</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Bivariate Plots</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>📑 <a href="templink.com">Class QMD #2</a> 📑</p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Class QMD #2</p>
 </div></td>
 <td headers="Due" class="gt_row gt_left"></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">4</td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Mon, Oct 2</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">3+ Variable Plots</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>3+ Variable Plots</p>
 </div></td>
 <td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"></td>
 <td headers="Due" class="gt_row gt_left"></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"></td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Wed, Oct 4</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Choosing a Graphic: Stephen Few</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Choosing a Graphic: Stephen Few</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>📑 <a href="templink.com">Class QMD #3</a> 📑</p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Class QMD #3</p>
 </div></td>
 <td headers="Due" class="gt_row gt_left"></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">5</td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Mon, Oct 9</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Color Models &amp; Spaces</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Color Models &amp; Spaces</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>📜 <a href="templink.com">HW3 assigned</a> 📜</p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>HW3 assigned</p>
 </div></td>
-<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p><a href="templink.com">HW2 due before class</a></p>
+<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p>HW2 due before class</p>
 </div></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"></td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Wed, Oct 11</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Color Wheel, Schemes, &amp; Palettes</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Color Wheel, Schemes, &amp; Palettes</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>📑 <a href="templink.com">Class QMD #4</a> 📑</p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Class QMD #4</p>
 </div></td>
 <td headers="Due" class="gt_row gt_left"></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">6</td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Mon, Oct 16</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Data-ink Ratio</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Data-ink Ratio</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>📈 <a href="templink.com">Quiz 1 Assigned</a> 📈</p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Quiz 1 Assigned</p>
 </div></td>
-<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p><a href="templink.com">Quiz 1 Due @ 11:59</a></p>
+<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p>Quiz 1 Due @ 11:59</p>
 </div></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"></td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Wed, Oct 18</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Axis, Annotation, &amp; Themes</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Axis, Annotation, &amp; Themes</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>📑 <a href="templink.com">Class QMD #5</a> 📑</p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Class QMD #5</p>
 </div></td>
-<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p><a href="templink.com">Reflection #1 due on sunday</a></p>
+<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p>Reflection #1 due on sunday</p>
 </div></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">7</td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Mon, Oct 23</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Deceptive Graphs</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Deceptive Graphs</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>✨Kahoot!✨</p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Kahoot!</p>
 </div></td>
-<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p><a href="templink.com">HW3 due before class</a></p>
+<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p>HW3 due before class</p>
 </div></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"></td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Wed, Oct 25</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Intro to Interactivity &amp; Animation (ggplotly + gganimate)</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Intro to Interactivity &amp; Animation (ggplotly + gganimate)</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>📑 <a href="templink.com">Class QMD #6</a> 📑</p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Class QMD #6</p>
 </div></td>
 <td headers="Due" class="gt_row gt_left"></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">8</td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Mon, Oct 30</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Fundamentals of Maps</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Fundamentals of Maps</p>
 </div></td>
 <td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"></td>
 <td headers="Due" class="gt_row gt_left"></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"></td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Wed, Nov 1</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Interactive Maps</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Interactive Maps</p>
 </div></td>
 <td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"></td>
 <td headers="Due" class="gt_row gt_left"></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">9</td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Mon, Nov 6</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Shiny I</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Shiny I</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>📑 <a href="templink.com">Class RShiny File</a> 📑</p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Class RShiny File</p>
 </div></td>
 <td headers="Due" class="gt_row gt_left"></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"></td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Wed, Nov 8</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Shiny II</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Shiny II</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>📈 <a href="templink.com">Quiz 2 Assigned</a> 📈</p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Quiz 2 Assigned</p>
 </div></td>
-<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p><a href="templink.com">Quiz 2 Due @ 11:59</a></p>
+<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p>Quiz 2 Due @ 11:59</p>
 </div></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">10</td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Mon, Nov 13</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Intro to Final Project</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Intro to Final Project</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>📊 <a href="templink.com">Final Project Assigned</a> 📊</p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Final Project Assigned</p>
 </div></td>
-<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p><a href="templink.com">HW4 due before class</a></p>
+<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p>HW4 due before class</p>
 </div></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"></td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Wed, Nov 15</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Exporting Image Files &amp; More</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Exporting Image Files &amp; More</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>📑 <a href="templink.com">Class QMD #7</a> 📑</p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Class QMD #7</p>
 </div></td>
 <td headers="Due" class="gt_row gt_left"></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">11</td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Mon, Nov 20</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Final Project Presentations I</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Final Project Presentations I</p>
 </div></td>
 <td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>🎊 Presentations! 🎊</p>
 </div></td>
-<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p><a href="templink.com">Final Project Due before class</a></p>
+<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p>Final Project Due before class</p>
 </div></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"></td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Wed, Nov 22</td>
@@ -755,18 +843,18 @@ ul.task-list li input[type="checkbox"] {
 <td headers="Due" class="gt_row gt_left"></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">12</td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Mon, Nov 27</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Final Project Presentations II</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Final Project Presentations II</p>
 </div></td>
-<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>🎊 Presentations! 🎊 // <a href="templink.com">Final Reflection Assigned. Due Fri, 08 Dec</a></p>
+<td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>🎊 Presentations! 🎊 // Final Reflection Assigned. Due Fri, 08 Dec</p>
 </div></td>
 <td headers="Due" class="gt_row gt_left"></td></tr>
     <tr><td headers="Week" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"></td>
 <td headers="Date" class="gt_row gt_center" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;">Wed, Nov 29</td>
-<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p><a href="ltemplink.com">Final Project Presentations III</a></p>
+<td headers="Content" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>Final Project Presentations III</p>
 </div></td>
 <td headers="Activity" class="gt_row gt_left" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3;"><div class="gt_from_md"><p>🎊 Presentations! 🎊</p>
 </div></td>
-<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p><a href="templink.com">Final Reflection due Fri, 08 Dec</a></p>
+<td headers="Due" class="gt_row gt_left"><div class="gt_from_md"><p>Final Reflection due Fri, 08 Dec</p>
 </div></td></tr>
   </tbody>
   
@@ -806,9 +894,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -873,6 +975,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -912,6 +1100,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./info/dv-syllabus.html" class="pagination-link">
+        <span class="nav-page-text">Syllabus</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

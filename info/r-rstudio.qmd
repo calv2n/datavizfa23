@@ -1,0 +1,9 @@
+---
+title: "R and RStudio"
+---
+
+In the realm of data visualization, there are a ton of options out there in terms of coding languages. Fortunately, the foundational principles of effective visualization remain consistent for all of them. Consequently, our class will center its focus on R, and utilize RStudio as our chosen IDE.
+
+If you don't already have R and RStudio, you can [click here](https://posit.co/download/rstudio-desktop/) to find download links for both.
+
+If you're having trouble getting set up, feel free to email [your instructors](linktoinstructorsemails.com) about the issue.

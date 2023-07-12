@@ -4,27 +4,48 @@ project:
 website:
   favicon: download.jpg
   title: "Data Viz @ Berkeley"
+  page-navigation: true
   description: "Data Viz Homepage, Fall 2023" #site-url:"TBD"
   sidebar:
-    background: "#7100bd"
+    background: "#677af1"
     foreground: light
     search: true
     logo: download.jpg
     logo-alt: "logo"
     style: docked
     collapse-level: 1
-    contents: 
-      - href: "gradescope.com"
-      - text: "Gradescope"
-      - href: dv-syllabus.qmd
-      - text: "Syllabus"
-      - href: dv-staff.qmd
-      - text: "Contact Staff"
-      
+    contents:
+      - section: "Class Info"
+        contents:
+        - href: index.qmd
+          text: "Home"
+        - href: info/dv-syllabus.qmd
+          text: "Syllabus"
+        - href: info/instructor-info.qmd
+          text: "Instructors"
+        - href: info/r-rstudio.qmd
+          text: "R & Rstudio"
+      - section: "Homework & Projects"
+        contents:
+        - href: homework/hw1.qmd
+          text: "HW1"
+        - href: homework/hw2.qmd
+          text: "HW2"
+        - href: homework/hw3.qmd
+          text: "HW3"
+        - href: homework/hw4.qmd
+          text: "HW4"
+        - href: homework/finalproj.qmd
+          text: "Final Project"
+      - section: "Slides"
+        contents:
+        - href: slides/sept11
+          text: "09/11/23"
+    
 format:
   html:
     theme: cosmo
-    linkcolor: "#9800ff"
+    linkcolor: "#4792e2"
     toc: true
     code-copy: true
     code-overflow: wrap

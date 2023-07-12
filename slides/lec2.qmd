@@ -1,0 +1,56 @@
+---
+title: "Grammar of Graphics I"
+title-slide-attributes:
+  data-background-image: ../download.jpg
+  data-background-size: contain
+  data-background-opacity: "0.5"
+format: 
+  revealjs:
+    theme: simple
+    logo: ../download.jpg
+---
+
+## Welcome! Today:
+
+Grammar of graphics:
+
+::: incremental
+- What is the grammar of graphics?
+- How is this useful to us?
+- What does it's implementation look like?
+:::
+
+## What is The Grammar of Graphics?
+
+::: incremental
+- The grammar of graphics is a framework for visualizing data.
+- It helps us understand each aspect of visualization, such as:
+- Data, aesthetic, geometry, scale, etc.
+:::
+
+## How is This Useful?
+
+::: incremental
+- This framework is used for data visualization for many programming languages and packages, not just for ggplot in R.
+- Examples: matplotlib in Python, Tableau, and more.
+- Although we are learning R specifically for this course, the grammar of graphics is used throughout statistics.  
+:::
+
+
+
+## Throwback Example:
+
+```{r}
+#| echo: false
+
+library(palmerpenguins)
+library(tidyverse)
+
+ggplot(penguins, aes(x = island)) + geom_bar()
+```
+
+
+
+
+
+

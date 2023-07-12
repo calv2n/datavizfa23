@@ -1,0 +1,59 @@
+---
+title: "Welcome! / Introduction"
+title-slide-attributes:
+  data-background-image: ../download.jpg
+  data-background-size: contain
+  data-background-opacity: "0.5"
+format: 
+  revealjs:
+    theme: simple
+    logo: ../download.jpg
+---
+
+## Welcome to STAT 198!!
+
+Intro to Data Visualization
+
+```{r}
+#| echo: false
+library(tidyverse)
+library(networkD3)
+URL <- "https://cdn.rawgit.com/christophergandrud/networkD3/master/JSONdata/energy.json"
+Energy <- jsonlite::fromJSON(URL)
+ 
+# Thus we can plot it
+p <- sankeyNetwork(Links = Energy$links, Nodes = Energy$nodes, Source = "source",
+              Target = "target", Value = "value", NodeID = "name",
+              units = "TWh", fontSize = 12, nodeWidth = 30)
+p
+```
+
+## Introductions
+
+Your Instructors:
+
+::: incremental
+-   Jenny Brown
+-   Calvin Carter
+:::
+
+## Syllabus
+
+## Ice Breaker
+
+Please turn to your neighbor and ask for their name, year, major, and what they did this summer.
+
+```{r}
+#| echo: false
+library(countdown)
+
+countdown(5)
+```
+
+## R & RStudio
+
+::: incremental
+-   R is a programming language for statistical computing and *graphics*
+-   RStudio is an integrated development environment (or IDE) made specificaly for R
+-   To install these tools, please head to https://posit.co/download/rstudio-desktop/
+:::

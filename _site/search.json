@@ -11,6 +11,272 @@
     "href": "index.html",
     "title": "STAT 198: Intro to Data Visualization",
     "section": "",
-    "text": "Class Calendar\n\n\n\n\n\n\n\n\n\n  \n    \n    \n    \n    \n    \n  \n  \n    \n    \n      Week\n      Date\n      Content\n      Activity\n      Due\n    \n  \n  \n    1\nMon, Sep 11\nWelcome! / Introduction\n\n💻 Install R & RStudio 💻\n\n\n    \nWed, Sep 13\nGrammar of Graphics I\n\n📜 HW1 assigned 📜\n\n\n    2\nMon, Sep 18\nGrammar of Graphics II\n\n✨Kahoot! ✨\n\n\n    \nWed, Sep 20\nData Wrangling Review\n\n📑 Class QMD #1 📑\n\n\n    3\nMon, Sep 25\nUnivariate Plots\n\n📜 HW2 assigned 📜\n\nHW1 due before class\n\n    \nWed, Sep 27\nBivariate Plots\n\n📑 Class QMD #2 📑\n\n\n    4\nMon, Oct 2\n3+ Variable Plots\n\n\n\n    \nWed, Oct 4\nChoosing a Graphic: Stephen Few\n\n📑 Class QMD #3 📑\n\n\n    5\nMon, Oct 9\nColor Models & Spaces\n\n📜 HW3 assigned 📜\n\nHW2 due before class\n\n    \nWed, Oct 11\nColor Wheel, Schemes, & Palettes\n\n📑 Class QMD #4 📑\n\n\n    6\nMon, Oct 16\nData-ink Ratio\n\n📈 Quiz 1 Assigned 📈\n\nQuiz 1 Due @ 11:59\n\n    \nWed, Oct 18\nAxis, Annotation, & Themes\n\n📑 Class QMD #5 📑\n\nReflection #1 due on sunday\n\n    7\nMon, Oct 23\nDeceptive Graphs\n\n✨Kahoot!✨\n\nHW3 due before class\n\n    \nWed, Oct 25\nIntro to Interactivity & Animation (ggplotly + gganimate)\n\n📑 Class QMD #6 📑\n\n\n    8\nMon, Oct 30\nFundamentals of Maps\n\n\n\n    \nWed, Nov 1\nInteractive Maps\n\n\n\n    9\nMon, Nov 6\nShiny I\n\n📑 Class RShiny File 📑\n\n\n    \nWed, Nov 8\nShiny II\n\n📈 Quiz 2 Assigned 📈\n\nQuiz 2 Due @ 11:59\n\n    10\nMon, Nov 13\nIntro to Final Project\n\n📊 Final Project Assigned 📊\n\nHW4 due before class\n\n    \nWed, Nov 15\nExporting Image Files & More\n\n📑 Class QMD #7 📑\n\n\n    11\nMon, Nov 20\nFinal Project Presentations I\n\n🎊 Presentations! 🎊\n\nFinal Project Due before class\n\n    \nWed, Nov 22\n🦃 Academic Holiday! 🦃\n\n\n\n    12\nMon, Nov 27\nFinal Project Presentations II\n\n🎊 Presentations! 🎊 // Final Reflection Assigned. Due Fri, 08 Dec\n\n\n    \nWed, Nov 29\nFinal Project Presentations III\n\n🎊 Presentations! 🎊\n\nFinal Reflection due Fri, 08 Dec"
+    "text": "Class Calendar\n\n\n\n\n\n\n  \n    \n    \n    \n    \n    \n  \n  \n    \n    \n      Week\n      Date\n      Content\n      Activity\n      Due\n    \n  \n  \n    1\nMon, Sep 11\nWelcome! / Introduction\n\nInstall R & RStudio\n\n\n    \nWed, Sep 13\nGrammar of Graphics I\n\nHW1 assigned\n\n\n    2\nMon, Sep 18\nGrammar of Graphics II\n\nKahoot!\n\n\n    \nWed, Sep 20\nData Wrangling Review\n\nClass QMD #1\n\n\n    3\nMon, Sep 25\nUnivariate Plots\n\nHW2 assigned\n\nHW1 due before class\n\n    \nWed, Sep 27\nBivariate Plots\n\nClass QMD #2\n\n\n    4\nMon, Oct 2\n3+ Variable Plots\n\n\n\n    \nWed, Oct 4\nChoosing a Graphic: Stephen Few\n\nClass QMD #3\n\n\n    5\nMon, Oct 9\nColor Models & Spaces\n\nHW3 assigned\n\nHW2 due before class\n\n    \nWed, Oct 11\nColor Wheel, Schemes, & Palettes\n\nClass QMD #4\n\n\n    6\nMon, Oct 16\nData-ink Ratio\n\nQuiz 1 Assigned\n\nQuiz 1 Due @ 11:59\n\n    \nWed, Oct 18\nAxis, Annotation, & Themes\n\nClass QMD #5\n\nReflection #1 due on sunday\n\n    7\nMon, Oct 23\nDeceptive Graphs\n\nKahoot!\n\nHW3 due before class\n\n    \nWed, Oct 25\nIntro to Interactivity & Animation (ggplotly + gganimate)\n\nClass QMD #6\n\n\n    8\nMon, Oct 30\nFundamentals of Maps\n\n\n\n    \nWed, Nov 1\nInteractive Maps\n\n\n\n    9\nMon, Nov 6\nShiny I\n\nClass RShiny File\n\n\n    \nWed, Nov 8\nShiny II\n\nQuiz 2 Assigned\n\nQuiz 2 Due @ 11:59\n\n    10\nMon, Nov 13\nIntro to Final Project\n\nFinal Project Assigned\n\nHW4 due before class\n\n    \nWed, Nov 15\nExporting Image Files & More\n\nClass QMD #7\n\n\n    11\nMon, Nov 20\nFinal Project Presentations I\n\n🎊 Presentations! 🎊\n\nFinal Project Due before class\n\n    \nWed, Nov 22\n🦃 Academic Holiday! 🦃\n\n\n\n    12\nMon, Nov 27\nFinal Project Presentations II\n\n🎊 Presentations! 🎊 // Final Reflection Assigned. Due Fri, 08 Dec\n\n\n    \nWed, Nov 29\nFinal Project Presentations III\n\n🎊 Presentations! 🎊\n\nFinal Reflection due Fri, 08 Dec"
+  },
+  {
+    "objectID": "info/dv-syllabus.html",
+    "href": "info/dv-syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "This is an introductory course to the principles of data visualization and their applications with R. Topics include: the role of graphics in a data analysis project, the grammar of graphics and its implementation with ggplot2; the use of analytical patterns/tasks to choose the right kind of graphic; common color models and their relationship to human vision; use of color with common tools such as the color wheel, color schemes, color pickers, and color palettes; designing principles (data-to-ink ratio, good practices); assessment of graphics (what makes a graphic good); animations and interactivity; shiny apps (time permitting)."
+  },
+  {
+    "objectID": "info/dv-syllabus.html#learning-outcomes",
+    "href": "info/dv-syllabus.html#learning-outcomes",
+    "title": "Syllabus",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nAt the end of the course, students will be able to: - Explain the importance/need of visualizing data - Describe the framework of the grammar of graphics for creating plots - Use functions from ggplot2 and other packages for making graphics in R - List five or more of the analytical patterns/tasks (proposed by Stephen Few) for choosing the right graphic - Specify colors through the use of a color model, and its hexadecimal syntax - Demonstrate an adequate encoding of data with color - Recognize color schemes when inspecting a graphic - Assess the effectiveness of a graphic intended for reporting/communicating purposes - Apply and/or suggest changes that increase the data-to-ink ratio of a graphic - Produce animated charts as well as graphics with interactive element"
+  },
+  {
+    "objectID": "info/dv-syllabus.html#prerequisites",
+    "href": "info/dv-syllabus.html#prerequisites",
+    "title": "Syllabus",
+    "section": "Prerequisites:",
+    "text": "Prerequisites:\nBecause our main computational tool is R (and RStudio), it is desirable to have taken a course in which you got an introduction to R (e.g. STAT 20, 33A, 33B, 133, or PB HLTH 142). It is also nice to have some previous experience analyzing data."
+  },
+  {
+    "objectID": "info/dv-syllabus.html#methods-of-instruction",
+    "href": "info/dv-syllabus.html#methods-of-instruction",
+    "title": "Syllabus",
+    "section": "Methods of Instruction",
+    "text": "Methods of Instruction\nWe will be using a combination of materials such as slides, tutorials, sample scripts, reading assignments, live demos, and chalk-and-talk. In-class attendance is mandatory.\nThe main computational tool will be the computing and programming environment R. The main workbench will be the IDE RStudio."
+  },
+  {
+    "objectID": "info/dv-syllabus.html#recommended-readings",
+    "href": "info/dv-syllabus.html#recommended-readings",
+    "title": "Syllabus",
+    "section": "Recommended Readings",
+    "text": "Recommended Readings\nThe following books are not required, but will be referenced throughout the course for slides, assignments, and more:\n\nData Visualization by Kieran Healy\nGeocomputation with R by Robin Lovelace, Jakub Nowosad, and Jannes Muenchow.\nNow You See It: Simple Visualization Techniques for Quantitative Analysis by Stephen Few\nEffective Data Visualization (2nd edition): The Right Chart for the Right Data by Stephanie Evergreen"
+  },
+  {
+    "objectID": "info/dv-syllabus.html#grading-structure",
+    "href": "info/dv-syllabus.html#grading-structure",
+    "title": "Syllabus",
+    "section": "Grading Structure",
+    "text": "Grading Structure\nStudents will be informed on their academic progress on gradescope. Final grades in the course are based on the following system:\nAssignments 30%\n\nHW1 4%\nHW2 4%\nHW3 4%\nHW4 4%\nFinal Project 14%\n\nReflections 10%\n\nMidterm Reflection 5%\nFinal Reflection 5%\n\nAttendance 50%\nQuizzes 10%\nNotice: There will be no extra credit assignments. Final grades will not be rounded to the nearest integer (i.e. 69.999% does not constitute a passing grade)."
+  },
+  {
+    "objectID": "info/dv-syllabus.html#assignments",
+    "href": "info/dv-syllabus.html#assignments",
+    "title": "Syllabus",
+    "section": "Assignments",
+    "text": "Assignments\n\nHomework\n\nThere will be 4 HW assignments.\nHWs will generally be assigned the every other monday and due exactly two weeks later before class. See chart for details.\nYou will submit your homework to Gradescope: including your source file (qmd file), and the produced output (html file).\nYou must write your own answers (using your own words, and your coding style - see Academic Honesty policy below).\n\n\n\nFinal Project\ndesc"
+  },
+  {
+    "objectID": "info/dv-syllabus.html#reflections",
+    "href": "info/dv-syllabus.html#reflections",
+    "title": "Syllabus",
+    "section": "Reflections",
+    "text": "Reflections\nReflections will help both students and instructors on how we can all improve. These should be the easiest points you can get for this class.\n\nThere will be 2 reflections, graded on effort and completion."
+  },
+  {
+    "objectID": "info/dv-syllabus.html#attendance",
+    "href": "info/dv-syllabus.html#attendance",
+    "title": "Syllabus",
+    "section": "Attendance",
+    "text": "Attendance\n\nAttendance will be taken daily in class starting on September 11th, and ending on November 29th.\nNo more than two absences permitted without contacting instructors.\nIn case of emergency, contact instructors for excused absences. You will still be expected to complete the class work from that date and email the instructors your work."
+  },
+  {
+    "objectID": "info/dv-syllabus.html#quizzes",
+    "href": "info/dv-syllabus.html#quizzes",
+    "title": "Syllabus",
+    "section": "Quizzes",
+    "text": "Quizzes\n\nThere will be 2 take-home quizzes worth 5% each.\nYou will be allowed to use any accumulated course materials (open note)."
+  },
+  {
+    "objectID": "info/dv-syllabus.html#late-policy",
+    "href": "info/dv-syllabus.html#late-policy",
+    "title": "Syllabus",
+    "section": "Late Policy",
+    "text": "Late Policy\nEveryone starts with 9 slip days. That is, if for any reason you are not able to turn in an assignment on time, you will automatically be charged one slip day for each extra day the assignment will take you. If you have no slip days left, you may ask your instructors for additional slip days. Notice:\n\nYou may not use more than 4 slip days for one assignment.\nYou may not use slip days to change your final project date. Please ask your instructors if you absolutely need to change the presentation date."
+  },
+  {
+    "objectID": "info/dv-syllabus.html#learning-cooperatively",
+    "href": "info/dv-syllabus.html#learning-cooperatively",
+    "title": "Syllabus",
+    "section": "Learning Cooperatively",
+    "text": "Learning Cooperatively\nWith the obvious exception of quizzes, we encourage you to discuss all of the course activities with your friends and classmates as you are working on them. You will definitely learn more in this class if you work with others than if you do not. Ask questions, answer questions, and share ideas liberally."
+  },
+  {
+    "objectID": "info/dv-syllabus.html#academic-honesty",
+    "href": "info/dv-syllabus.html#academic-honesty",
+    "title": "Syllabus",
+    "section": "Academic Honesty",
+    "text": "Academic Honesty\nCooperation has a limit, however. You should not share your code or answers directly with other students. Doing so doesn’t help them; it just sets them up for trouble. Feel free to discuss approaches to the problems with others, but you must write your own solutions. Please complete your own work and keep it to yourself. If you suspect other people may be plagiarizing you, let us know ASAP. For more information please read the Honor Code Guide for Syllabi.\nWe expect you to do your own work and to uphold the standards of intellectual integrity. Collaborating on homework is fine and I encourage you to work together—but copying is not, nor is having somebody else submit assignments for you. Cheating will not be tolerated. Anyone found cheating will receive an F and will be reported to the Center for the Student Conduct.\nIf you are having trouble with an assignment or studying for an exam, or if you are uncertain about permissible and impermissible conduct or collaboration, please come see me with your questions. Rather than copying someone else’s work, ask for help. You are not alone in this course! The course staff is here to help you succeed. If you invest the time to learn the material and complete the projects, you won’t need to copy any answers."
+  },
+  {
+    "objectID": "info/dv-syllabus.html#special-accommodations",
+    "href": "info/dv-syllabus.html#special-accommodations",
+    "title": "Syllabus",
+    "section": "Special Accommodations",
+    "text": "Special Accommodations\nStudents needing accommodations for any physical, psychological, or learning disability, should speak with me during the first two weeks of the semester, either after class or during office hours and see the dsp website to learn about Berkeley’s policy. If you are a DSP student, please contact your instructors at least three weeks prior to a midterm or final so that we can work out acceptable accommodations via the DSP Office.\nFor relevant DSP accommodations that provide occasional extensions on assignments, we may provide a two-day extension as long as you contact us before the assignment is due. More details about these consideratinos may be discussed with the DSP staff.\nIf you are an athlete or Cal band member, please check your calendar. Do not take the class if you are not available to take the midterms, and/or attend lab discussions. I won’t be able to provide accommodations for an early or late exam."
+  },
+  {
+    "objectID": "info/dv-syllabus.html#safe-and-inclusive-environment",
+    "href": "info/dv-syllabus.html#safe-and-inclusive-environment",
+    "title": "Syllabus",
+    "section": "Safe and Inclusive Environment",
+    "text": "Safe and Inclusive Environment\nWhenever a faculty member, staff member, post-doc, or GSI is responsible for the supervision of a student, a personal relationship between them of a romantic or sexual nature, even if consensual, is against university policy. Any such relationship jeopardizes the integrity of the educational process.\nAlthough faculty and staff can act as excellent resources for students, you should be aware that they are required to report any violations of this campus policy. If you wish to have a confidential discussion on matters related to this policy, you may contact the Confidential Care Advocates on campus for support related to counseling or sensitive issues. Appointments can be made by calling (510) 642-1988.\nTe classroom should be a safe and inclusive environment for everyone. The Office for the Prevention of Harassment and Discrimination (OPHD) is responsible for ensuring the University provides an environment for faculty, staff and students that is free from discrimination and harassment on the basis of categories including race, color, national origin, age, sex, gender, gender identity, and sexual orientation. Questions or concerns? Call (510) 643-7985, email ask_ophd@berkeley.edu, or go to the survivor support website."
+  },
+  {
+    "objectID": "info/dv-syllabus.html#final-project",
+    "href": "info/dv-syllabus.html#final-project",
+    "title": "Syllabus",
+    "section": "Final Project",
+    "text": "Final Project\ndesc"
+  },
+  {
+    "objectID": "info/instructor-info.html",
+    "href": "info/instructor-info.html",
+    "title": "Meet your Instructors",
+    "section": "",
+    "text": "Calvin Carter\nHey everyone! I’m Calvin, a fourth year Data Science major from Sacramento county & Albuquerque. In my free time, I love listening to new music, hanging out with friends, and looking at memes.\n[insert picture here]\nJenny Brown\n(desc)\n[same thing]"
+  },
+  {
+    "objectID": "info/r-rstudio.html",
+    "href": "info/r-rstudio.html",
+    "title": "R and RStudio",
+    "section": "",
+    "text": "In the realm of data visualization, there are a ton of options out there in terms of coding languages. Fortunately, the foundational principles of effective visualization remain consistent for all of them. Consequently, our class will center its focus on R, and utilize RStudio as our chosen IDE.\nIf you don’t already have R and RStudio, you can click here to find download links for both.\nIf you’re having trouble getting set up, feel free to email your instructors about the issue."
+  },
+  {
+    "objectID": "slides/temp.html#getting-up",
+    "href": "slides/temp.html#getting-up",
+    "title": "Welcome! / Introduction",
+    "section": "Getting up",
+    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+  },
+  {
+    "objectID": "slides/temp.html#going-to-sleep",
+    "href": "slides/temp.html#going-to-sleep",
+    "title": "Welcome! / Introduction",
+    "section": "Going to sleep",
+    "text": "Going to sleep\n\nGet in bed\nCount sheep"
+  },
+  {
+    "objectID": "slides/temp.html#welcome-to-stat-198",
+    "href": "slides/temp.html#welcome-to-stat-198",
+    "title": "Welcome! / Introduction",
+    "section": "Welcome to STAT 198!!",
+    "text": "Welcome to STAT 198!!\nIntro to Data Visualization"
+  },
+  {
+    "objectID": "slides/temp.html#section",
+    "href": "slides/temp.html#section",
+    "title": "Welcome! / Introduction",
+    "section": "",
+    "text": "Get in bed\nCount sheep"
+  },
+  {
+    "objectID": "slides/temp.html#introductions",
+    "href": "slides/temp.html#introductions",
+    "title": "Welcome! / Introduction",
+    "section": "Introductions",
+    "text": "Introductions\nYour Instructors:\n\n\nJenny Brown\nCalvin Carter"
+  },
+  {
+    "objectID": "slides/temp.html#ice-breaker",
+    "href": "slides/temp.html#ice-breaker",
+    "title": "Welcome! / Introduction",
+    "section": "Ice Breaker",
+    "text": "Ice Breaker\nPlease turn to your neighbor and ask for their name, year, major, and what they did this summer.\n\n\n\n−+\n05:00"
+  },
+  {
+    "objectID": "slides/temp.html",
+    "href": "slides/temp.html",
+    "title": "Welcome! / Introduction",
+    "section": "",
+    "text": "Intro to Data Visualization\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.1     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.1     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors"
+  },
+  {
+    "objectID": "slides/temp.html#r-rstudio",
+    "href": "slides/temp.html#r-rstudio",
+    "title": "Welcome! / Introduction",
+    "section": "R & RStudio",
+    "text": "R & RStudio\n\n\nR is a programming language for statistical computing and graphics\nRStudio is an integrated development environment (or IDE) made specificaly for R\nTo install these tools, head to https://posit.co/download/rstudio-desktop/"
+  },
+  {
+    "objectID": "slides/lec2.html#welcome-today",
+    "href": "slides/lec2.html#welcome-today",
+    "title": "Grammar of Graphics I",
+    "section": "Welcome! Today:",
+    "text": "Welcome! Today:\nGrammar of graphics:\n\n\nWhat is the grammar of graphics?\nHow is this useful to us?\nWhat does it’s implementation look like?"
+  },
+  {
+    "objectID": "slides/lec1.html",
+    "href": "slides/lec1.html",
+    "title": "Welcome! / Introduction",
+    "section": "",
+    "text": "Intro to Data Visualization\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.1     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.1     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors"
+  },
+  {
+    "objectID": "slides/lec1.html#introductions",
+    "href": "slides/lec1.html#introductions",
+    "title": "Welcome! / Introduction",
+    "section": "Introductions",
+    "text": "Introductions\nYour Instructors:\n\n\nJenny Brown\nCalvin Carter"
+  },
+  {
+    "objectID": "slides/lec1.html#ice-breaker",
+    "href": "slides/lec1.html#ice-breaker",
+    "title": "Welcome! / Introduction",
+    "section": "Ice Breaker",
+    "text": "Ice Breaker\nPlease turn to your neighbor and ask for their name, year, major, and what they did this summer.\n\n\n\n−+\n05:00"
+  },
+  {
+    "objectID": "slides/lec1.html#r-rstudio",
+    "href": "slides/lec1.html#r-rstudio",
+    "title": "Welcome! / Introduction",
+    "section": "R & RStudio",
+    "text": "R & RStudio\n\n\nR is a programming language for statistical computing and graphics\nRStudio is an integrated development environment (or IDE) made specificaly for R\nTo install these tools, please head to https://posit.co/download/rstudio-desktop/"
+  },
+  {
+    "objectID": "slides/lec2.html#what-is-the-grammar-of-graphics",
+    "href": "slides/lec2.html#what-is-the-grammar-of-graphics",
+    "title": "Grammar of Graphics I",
+    "section": "What is The Grammar of Graphics?",
+    "text": "What is The Grammar of Graphics?\n\n\nThe grammar of graphics is a framework for visualizing data.\nIt helps us understand each aspect of visualization, such as:\nData, aesthetic, geometry, scale, etc."
+  },
+  {
+    "objectID": "slides/lec2.html#throwback-example",
+    "href": "slides/lec2.html#throwback-example",
+    "title": "Grammar of Graphics I",
+    "section": "Throwback Example:",
+    "text": "Throwback Example:\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.1     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.1     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors"
+  },
+  {
+    "objectID": "slides/lec1.html#syllabus",
+    "href": "slides/lec1.html#syllabus",
+    "title": "Welcome! / Introduction",
+    "section": "Syllabus",
+    "text": "Syllabus"
+  },
+  {
+    "objectID": "slides/lec2.html",
+    "href": "slides/lec2.html",
+    "title": "Grammar of Graphics I",
+    "section": "",
+    "text": "Grammar of graphics:\n\n\nWhat is the grammar of graphics?\nHow is this useful to us?\nWhat does it’s implementation look like?"
+  },
+  {
+    "objectID": "slides/lec2.html#how-is-this-useful",
+    "href": "slides/lec2.html#how-is-this-useful",
+    "title": "Grammar of Graphics I",
+    "section": "How is This Useful?",
+    "text": "How is This Useful?\n\n\nThis framework is used for data visualization for many programming languages and packages, not just for ggplot in R.\nExamples: matplotlib in Python, Tableau, and more.\nAlthough we are learning R specifically for this course, the grammar of graphics is used throughout statistics."
+  },
+  {
+    "objectID": "info/dv-syllabus.html#description",
+    "href": "info/dv-syllabus.html#description",
+    "title": "Syllabus",
+    "section": "",
+    "text": "This is an introductory course to the principles of data visualization and their applications with R. Topics include: the role of graphics in a data analysis project, the grammar of graphics and its implementation with ggplot2; the use of analytical patterns/tasks to choose the right kind of graphic; common color models and their relationship to human vision; use of color with common tools such as the color wheel, color schemes, color pickers, and color palettes; designing principles (data-to-ink ratio, good practices); assessment of graphics (what makes a graphic good); animations and interactivity; shiny apps (time permitting)."
+  },
+  {
+    "objectID": "slides/lec1.html#welcome-to-stat-198",
+    "href": "slides/lec1.html#welcome-to-stat-198",
+    "title": "Welcome! / Introduction",
+    "section": "Welcome to STAT 198!!",
+    "text": "Welcome to STAT 198!!\nIntro to Data Visualization"
   }
 ]

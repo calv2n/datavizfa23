@@ -5,11 +5,12 @@ execute:
   freeze: false
 editor_options: 
   chunk_output_type: console
-urlcolor: "#9800ff"
-linkcolor: "#9800ff"
+urlcolor: "#4792e2"
+linkcolor: "#4792e2"
 ---
 
 **Class Calendar**
+
 ```{r}
 #| echo: false
 #| message: false
@@ -56,5 +57,4 @@ schedule %>%
     Activity ~ px(250),
     Due ~ px(200)
   )
-  
 ```
